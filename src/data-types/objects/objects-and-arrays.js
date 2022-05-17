@@ -31,11 +31,11 @@ const secondVoucherCode = basket.voucherCodes[1]
 
 basket.items[0].price = 2
 
-// basket.items({
-//   name: "Oranges",
-//   price: 0.75,
-//   quantity: 4
-// })
+basket.items.push({
+  name: "Oranges",
+  price: 0.75,
+  quantity: 4
+})
 
 // Do not edit this exported object
 module.exports = {
