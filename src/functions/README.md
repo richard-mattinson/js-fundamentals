@@ -16,7 +16,7 @@ Functions always start with the `function` keyword, followed by the function nam
 
 Next there are the function parameters `(a, b)`. These are the external pieces of data that your function will expect when you call it later on. You can have none or as many as you need for your function to work. They are wrapped by parentheses and separated by commas. The names are arbitrary (they can be whatever you want!) and you should think really carefully when creating them, making sure the reader will easily understand what’s going on when they see it.
 
-Finally, we have our function’s block. This is the code that appears in the curly braces after thr function definition and is the code we want out function to run when it's called. Within this block, we will have access to all the parameters we’ve defined, and we can also use the special keyword `return` to end the function and give back a single value as a result.
+Finally, we have our function’s block. This is the code that appears in the curly braces after the function definition and is the code we want out function to run when it's called. Within this block, we will have access to all the parameters we’ve defined, and we can also use the special keyword `return` to end the function and give back a single value as a result.
 
 In the example above, the function is not actually doing anything yet - we’re just declaring how the function will work. If we want to use the function, we need to *call* it. We can do that like so:
 
